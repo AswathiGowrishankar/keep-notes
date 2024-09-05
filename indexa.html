@@ -1,0 +1,44 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make a Note</title>
+    <link href="/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+    <div class="top">
+        <h1>Two line of the Hand Brain</h1>
+    </div>
+    <div class="books" id="bookhere">
+      
+    </div>
+
+
+    <button class="add"  onclick="popup()">+</button>
+
+
+
+    <div class="addbook"id="adddetail">
+        <div class="bookdetails">
+            <h2>Add book</h2>
+            <form>
+                <input type="text" placeholder="Book Title" id="booktitle">
+                <input type="text" placeholder="Book author" id="bookauthor">
+                <textarea placeholder="Short Description" id="bookdescription"></textarea>
+                <button onclick="addbookclick(event)">Add</button>
+                <button  onclick="cancel(event)">Cancel</button>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
